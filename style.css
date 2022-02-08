@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Balthazar&family=Cinzel:wght@800&family=Graduate&family=Love+Light&family=Monoton&family=Nixie+One&family=Nunito:ital,wght@1,900&family=Oswald:wght@700&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Balthazar&family=Cinzel:wght@800&family=Graduate&family=Love+Light&family=Monoton&family=Nixie+One&family=Oswald:wght@700&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+
+body{
+   background-color:rgba(32, 32, 32);
+    font-size: 20px;
+    font-family: 'roboto', sans-serif; 
+    color: white;
+    margin: auto;
+   
+    
+}
+
+h1{
+  font-family: 'Balthazar', sans-serif;
+  background-color: indigo;
+  font-size: 55px;
+  padding: 15px;
+   text-align:center;
+}
+h2{
+  font-size: 35px;
+  font-family: nunito;
+}
+
+
+.destaque {
+  background-color: rgba(137, 43, 226, 0.603);
+  padding: 10px;
+}
+
+.checked {
+  color: orange;
+}
