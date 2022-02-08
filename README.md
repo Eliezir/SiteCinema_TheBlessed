@@ -1,4 +1,4 @@
-# THE BLESSED V2.0
+# [THE BLESSED](https://eliezir.github.io/TheBlessed.com/)V2.0
 
 Atualizações realizadas:               
 Foram alteradas as cores de fundo do site como um todo e de todos h1s;         
