@@ -112,19 +112,3 @@ header a{
 header a:hover{
   color:black;
 }
-iframe.teste{
-  visibility:visible;
-}
-
-iframe.teste:hover{
-  visibility:hidden;
-}
-
-
-
-/*
-img{
-  position: absolute;
-  right: 300px;
-  top: 300px;
-}*/
