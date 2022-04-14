@@ -5,7 +5,7 @@
 
 body{
     text-align:center;
-    background: #0b141a;
+    background:#3b3b3b;
     font-size: 20px;
     font-family: 'roboto', sans-serif; 
     color: white;
@@ -112,3 +112,12 @@ header a{
 header a:hover{
   color:black;
 }
+
+
+
+/*
+img{
+  position: absolute;
+  right: 300px;
+  top: 300px;
+}*/
