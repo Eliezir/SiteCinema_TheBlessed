@@ -8,7 +8,6 @@ body {
   font-size: 20px;
   color: white;
   margin: 0;
-  background: #1F1926;
   ;
 }
 
@@ -30,7 +29,7 @@ h2 {
 
 /* Oscars */
 div.oscars {
-  background: #1F1926;
+  background: #1c1d1f; 
   padding-top: 3rem;
 }
 
@@ -51,26 +50,33 @@ div.oscars p {
 
 /* Footer */
 footer {
-  background: #1F1926;
+
   color: #F1F0EB;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 10px 15%;
 }
 
-div.copyright {
-  border-top: 1px solid #fff;
-  padding-top: 20px;
-  padding-bottom: 10px;
-
+div.logo-e-copyright {
+  padding: 64px 15% 32px ;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: justify;
 }
 
-p.copymsg {
-  margin-left: 15%;
-  text-align: left;
+div.footer-section{
+  background: #1c1d1f; 
+  border-top: 1px solid #3e4143;
+}
+div.copymsg { 
   font-family: 'Nunito', sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
+div.logo-blessed{
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+}
 
 
 /* bootrstrap */
