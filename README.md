@@ -9,3 +9,7 @@ adição dos avatares da equipe na div oscars dos abençoados;<br>
 definição e atualização do layout padrão para as paginas de conteudo;<br>
 adicionar dados da equipe na pagina blessed;<br>
 criação de um quizz para recomendação de filmes(js);<br>
+
+Pendente a votação:
+Carousel 21:9<br>
+Icones de logo(full e minimalista)<br>
