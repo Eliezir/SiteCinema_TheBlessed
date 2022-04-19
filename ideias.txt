@@ -1,0 +1,4 @@
+Esticar a resolução do carousel e a da navbar junto, manter a da div oscar para contraste
+
+-erros
+slide effect do carousel não funciona.
