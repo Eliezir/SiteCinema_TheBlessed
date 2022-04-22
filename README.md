@@ -1,4 +1,4 @@
-# [THE BLESSED](https://eliezir.github.io/critica_de_cinema_html-css/)V3.0
+# [THE BLESSED](https://eliezir.github.io/SiteCinema_TheBlessed/)V3.0
 
 Atualizações realizadas:               
 Foram adicionados alguns componentes do Bootstrap, tornando o site mais dinamico e responsivo;<br>
