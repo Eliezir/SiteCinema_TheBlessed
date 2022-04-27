@@ -1,4 +1,42 @@
-Esticar a resolução do carousel e a da navbar junto, manter a da div oscar para contraste
+Esticar a resolução do carousel e a da navbar junto, manter a da div oscar para contraste ✅
+adicionar um menu ao footer
+futuros topicos - romance adolescente/
+adicionar series(div series, layout a definir)
+
+
+romance adolescente -
+all the bright places https://www.google.com/search?q=por+lugares+incriveis+header&client=opera-gx&hs=3MV&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjO5rzxy6v3AhXnkZUCHScsC0sQ_AUoAnoECAEQBA&biw=1817&bih=979&dpr=1
+
+
+a culpa é das estrelas
+https://www.google.com/search?q=a+culpa+é+das+estrelas+header&tbm=isch&ved=2ahUKEwits5Svy6v3AhXjkZUCHWaCCPsQ2-cCegQIABAA&oq=a+culpa+é+das+estrelas+header&gs_lcp=CgNpbWcQDDoICAAQsQMQgwE6BAgAEEM6CAgAEIAEELEDOgsIABCABBCxAxCDAToFCAAQgAQ6BwgAELEDEEM6BggAEAoQGDoGCAAQCBAeOgQIABAeOgQIABAYUOQJWNRDYN5ZaAFwAHgAgAGZAYgBnB-SAQQwLjI5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Va1kYu20O-Oj1sQP5oSi2A8&client=opera-gx&hs=Tf#imgrc=zrwxmKtfuRnsYM
+
+perks of being a wallflower
+https://www.google.com/search?q=perks+of+being+a+wallflower+header&tbm=isch&ved=2ahUKEwjHjcGezKv3AhWCu5UCHd_QCg4Q2-cCegQIABAA&oq=perks+of+being+a+wallflower+header&gs_lcp=CgNpbWcQDDIGCAAQBRAeOgsIABCABBCxAxCDAToFCAAQgAQ6CAgAEIAEELEDOggIABCxAxCDAToECAAQQzoECAAQHjoECAAQEzoICAAQBRAeEBNQlxJY1IEBYPuSAWgAcAB4AIABowGIAaISkgEEMC4xN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=P65kYofyHYL31sQP36GrcA&client=opera-gx&hs=Tf
+
+chemical hearts 
+https://www.google.com/search?q=chemical+hearts+banner&tbm=isch&ved=2ahUKEwit0rXbzKv3AhXZD9QKHVZQCIkQ2-cCegQIABAA&oq=chemical+hearts+banner&gs_lcp=CgNpbWcQAzoECAAQEzoICAAQBRAeEBM6CAgAEAgQHhATOgYIABAeEBNQ1gpYpA5gxA9oAHAAeACAAcoBiAHUCJIBBTAuNi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=v65kYu32Ddmf0AbWoKHICA&bih=979&biw=1817&client=opera-gx&hs=u5p
+
+five feet apart 
+https://www.google.com/search?q=five+feeet+apart+banner&tbm=isch&ved=2ahUKEwiX6sXezKv3AhVsM7kGHfu1AOAQ2-cCegQIABAA&oq=five+feeet+apart+banner&gs_lcp=CgNpbWcQAzoICAAQsQMQgwE6CwgAEIAEELEDEIMBOgUIABCABDoECAAQQzoICAAQgAQQsQM6CggAELEDEIMBEENQnQRYvBpg4xtoAHAAeACAAaABiAGAG5IBBDAuMjSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=xa5kYtfzL-zm5OUP--uCgA4&bih=979&biw=1817&client=opera-gx&hs=u5p
+
+space between us 
+https://www.google.com/search?q=os+espaço+entre+nos&tbm=isch&ved=2ahUKEwik_trmzKv3AhVjBbkGHWYODNYQ2-cCegQIABAA&oq=os+espaço+entre+nos&gs_lcp=CgNpbWcQAzoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOgUIABCABDoICAAQgAQQsQM6BAgAEEM6BwgAELEDEEM6BggAEAgQHlDoBFjfFmCaG2gAcAB4AIABrgOIAfkbkgEKMC4xNy4xLjEuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=1q5kYqS7N-OK5OUP5pywsA0&bih=979&biw=1817&client=opera-gx&hs=u5p#imgrc=0cDkuoFuJ_WS4M
+
+
+series -
+
+stranger things - b99 - the office - one day at time - atypical -
+fazer banners por tipo de serie no topo com banners individuais em baixo- descobrir com opor tudo isso dentro de um carousel usar #ids para ao clicar no banner da serie abrir a pagina do tipo da serie na sessão da serie
+
+
 
 -erros
-slide effect do carousel não funciona.
+slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
+
+<a href="" target="_self" rel="next">
+        <div class="carousel-item">
+          <img src="imagens/CapaRomance.png" class="d-block w-100" alt="Capa filmes romance adolescente">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Filmes Clichês para meninas de 14 anos</h4>
+          </div></a>

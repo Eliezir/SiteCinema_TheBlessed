@@ -6,100 +6,25 @@
 body {
   text-align: center;
   font-size: 20px;
-  color: white;
+  color: #F1F0EB;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
   ;
 }
 
 h1 {
-  font-family: 'Montserrat', cursive, sans-serif;
   font-size: 3.5rem;
-  margin:0;
-  line-height: 1.5;
+  margin: 0;
+  line-height: 1.25;
   font-weight: 900;
-  color: #F1F0EB;
   text-align: left;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #6320EE;
-
+@media (max-width:900px){
+  h1{
+  font-size:1.75rem;
+  text-align: center; } 
 }
-
-/* Oscars */
-div.oscars {
-  background: #1c1d1f; 
-  padding-top: 3rem;
-}
-
-div.oscars h2 {
-  color: #FDF7FF;
-  text-align: left;
-}
-
-div.oscars h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: right;
-  color: #FDF7FF;
-}
-
-div.oscars p {
-  color: #FDF7FF;
-}
-
-/* Footer */
-footer {
-
-  color: #F1F0EB;
-  padding: 10px 15%;
-}
-
-div.logo-e-copyright {
-  padding: 64px 15% 32px ;
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: justify;
-}
-
-div.footer-section{
-  background: #1c1d1f; 
-  border-top: 1px solid #3e4143;
-}
-div.copymsg { 
-  font-family: 'Nunito', sans-serif;
-  font-size: 1rem;
-}
-
-div.logo-blessed{
-  font-family: 'Lobster', cursive;
-  font-size: 2.5rem;
-}
-
-h4{
-  font-family: 'Lobster';
-  font-weight: bold;
-}
-
-/* bootrstrap */
-
-#titulo {
-  background-color: #6320EE;
-  padding-bottom:30px;
-}
-
-.container-fluid {
-  padding: 0 15%;
-}
-
-.blessed {
-  font-family: 'Grape Nuts', cursive;
-  font-size: 30px;
-  font-weight: 900;
-}
-
 
 /* navbar*/
 
@@ -108,7 +33,7 @@ h4{
 }
 
 .navbar-brand {
-width:80px;
+  width: 80px;
 }
 
 .nav-item {
@@ -118,6 +43,81 @@ width:80px;
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
+  margin-top:24px;
+  padding:0;
+
+}
+
+
+/* Oscars */
+div.oscars {
+  background: #1c1d1f;
+  padding-top: 3rem;
+}
+
+div.oscars h2 {
+  text-align: left;
+}
+
+div.oscars h3 {
+  text-align: right;
+
+}div.oscars p {
+font-size: 1rem;
+}
+
+/* series */
+
+div.series{
+  color:black;
+}
+
+
+/* Footer */
+footer {
+  padding: 10px 15%;
+}
+
+div.logo-e-copyright {
+  padding: 8px 15% 8px;
+  text-align: justify;
+}
+
+div.footer-section {
+  background: #1c1d1f;
+  border-top: 1px solid #3e4143;
+}
+
+p.copymsg {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+
+h4 {
+  font-family: 'Lobster';
+  font-weight: bold;
+}
+
+/* bootrstrap */
+
+#titulo {
+  background-color: #6320EE;
+}
+
+.container-fluid {
+  padding: 0 15%;
+}
+
+.logo {
+  width: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.seta-carousel {
+  color: black;
 }
 
 /* pagina equipe */
@@ -138,10 +138,10 @@ width:80px;
   color: #8f8f8f;
 }
 
+/* Icones fontawesome */
 .div-icones {
   padding: 4.5%;
 }
-
 
 .icone {
   color: rgb(141, 90, 241);
@@ -153,12 +153,3 @@ width:80px;
 
 }
 
-.logo{
-  width: 80px;;
-  margin:0;
-  padding:0;
-}
-
-.seta-carousel{
-  color:black;
-}
