@@ -9,27 +9,13 @@ body {
   color: #F1F0EB;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  ;
 }
 
-h1 {
-  font-size: 3.5rem;
-  margin: 0;
-  line-height: 1.25;
-  font-weight: 900;
-  text-align: left;
-}
-
-@media (max-width:900px){
-  h1{
-  font-size:1.75rem;
-  text-align: center; } 
-}
 
 /* navbar*/
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 1rem;
 }
 
 .navbar-brand {
@@ -47,22 +33,32 @@ h1 {
   padding:0;
 
 }
-
+.titulo-carousel {
+  font-size: 3.5rem;
+  line-height: 1.25;
+  font-weight: 900;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(141, 90, 241), 0 0 5px #6320EE;
+  top:70px;
+  left:150px;
+}
 
 /* Oscars */
-div.oscars {
+#oscars {
   background: #1c1d1f;
   padding-top: 3rem;
 }
 
-div.oscars h2 {
+#oscars h2 {
   text-align: left;
 }
 
-div.oscars h3 {
+#oscars h3 {
   text-align: right;
-
-}div.oscars p {
+}
+#oscars p {
 font-size: 1rem;
 }
 
@@ -95,25 +91,31 @@ p.copymsg {
 }
 
 
-h4 {
-  font-family: 'Lobster';
-  font-weight: bold;
-}
+/* containers */
 
-/* bootrstrap */
-
-#titulo {
-  background-color: #6320EE;
-}
 
 .container-fluid {
   padding: 0 15%;
 }
 
+/* sections */
+
+#header  {
+  background-color: #6320EE;
+}
+
+/* Logo */
 .logo {
   width: 80px;
   margin: 0;
   padding: 0;
+}
+
+/* carousel */
+
+h4 {
+  font-family: 'Lobster';
+  font-weight: bold;
 }
 
 .seta-carousel {
@@ -122,19 +124,19 @@ h4 {
 
 /* pagina equipe */
 
-.intro-blessed {
+#intro-blessed {
   background-color: white;
   padding: 3% 10%;
 }
 
 
-.intro-blessed h3 {
+#intro-blessed h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   color: black;
 }
 
-.intro-blessed p {
+#intro-blessed p {
   color: #8f8f8f;
 }
 
@@ -153,3 +155,38 @@ h4 {
 
 }
 
+/* Pagina Filmes */
+.filmes-bg{
+  background-color: #6320EE;
+}
+
+.filmes{
+  margin-top:10%;
+}
+
+.titulo{  
+  font-size: 3.5rem;
+  line-height: 1.25;
+  font-weight: 900;
+  text-align: left;
+}
+
+  
+
+/* media para mobile */
+
+@media (max-width:900px){
+  .titulo-carousel  {
+  font-size:1.5rem;
+  text-align: center;
+  position: static;
+  text-shadow:none; } 
+  
+  h2{
+    font-size:0.9rem;
+  }
+
+  .carousel-indicators{
+    display: none;
+  }
+}

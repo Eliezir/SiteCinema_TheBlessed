@@ -26,7 +26,7 @@
 
 <body>
   <!-- navbar  -->
-  <section id="titulo">
+  <section id="header">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="blessed/blessed.html"> <img class="logo" src="imagens/logoBlessed.png"></a>
@@ -60,59 +60,62 @@
         </div>
       </nav>
 
-      <h1>Abençoando o seu CINEMA.</h1>
+      <h1 class="titulo-carousel">Cinema abençoado</h1>
     </div>
+  </section>
 
-    <!-- carousel conteudo -->
-    <div id="carouselConteudo" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="0">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
-      <div class="carousel-inner" >
-        <div class="carousel-item active">
-          <a href="adam/filmes.html" target="_self" rel="next">
+  <!-- carousel conteudo -->
+  <div id="carouselConteudo" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="0">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselConteudo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="adam/filmes.html" target="_self" rel="next">
           <img src="imagens/CapaAdam.png" class="d-block w-100" alt="capa adam sandler">
           <div class="carousel-caption d-none d-md-block">
             <h4>Adam Sandler</h4>
-          </div></a>
-        </div>
-        <div class="carousel-item">
-          <a href="brasileiros/filmes.html" target="_self" rel="next">
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="brasileiros/filmes.html" target="_self" rel="next">
           <img src="imagens/CapaNacional.jpg" class="d-block w-100" alt="Capa filmes nacionais">
           <div class="carousel-caption d-none d-md-block">
             <h4>Filmes Nacionais</h4>
-          </div></a>
-        </div>
-        <div class="carousel-item">
-          <a href="lançamentos/filmes.html" target="_self" rel="next">
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="lançamentos/filmes.html" target="_self" rel="next">
           <img src="imagens/CapaLancamento.jpg" class="d-block w-100" alt="Capa filmes em lançamento">
           <div class="carousel-caption d-none d-md-block">
             <h4>Lançamentos</h4>
-          </div></a>
-        </div>
-        <div class="carousel-item">
-          <img src="imagens/CapaRomance.png" class="d-block w-100" alt="Capa filmes em lançamento">
-          <div class="carousel-caption d-none d-md-block">
-            <h4>teste</h4>
           </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <img src="imagens/CapaRomance.png" class="d-block w-100" alt="Capa filmes em lançamento">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Romances clichês</h4>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselConteudo" data-bs-slide="prev">
-        <span> <i class="seta-carousel fa-solid fa-circle-arrow-left" aria-hidden="true"></i></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselConteudo" data-bs-slide="next">
-        <span><i class="seta-carousel fa-solid fa-circle-arrow-right" aria-hidden="true"></i></span>
-        <span class="visually-hidden">Next</span>
-      </button></div>
-
-  </section>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselConteudo" data-bs-slide="prev">
+      <span> <i class="seta-carousel fa-solid fa-circle-arrow-left" aria-hidden="true"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselConteudo" data-bs-slide="next">
+      <span><i class="seta-carousel fa-solid fa-circle-arrow-right" aria-hidden="true"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <!-- div oscars - row & col -->
-  <div class="oscars">
+  <section id="oscars">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-7 col-md-12">
@@ -159,14 +162,14 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- div series -->
   <div class="series cointainer-fluid">
 
   </div>
 
-  <!-- Footer em desenvolvimento -->
+  <!-- Footer -->
   <div class="footer-section">
     <div class="logo-e-copyright">
       <p class="copymsg">© 2022 Abençoados, Inc.</p>

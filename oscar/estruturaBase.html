@@ -1,19 +1,3 @@
-Esticar a resolução do carousel e a da navbar junto, manter a da div oscar para contraste ✅
-adicionar um menu ao footer
-futuros topicos - romance adolescente/
-adicionar series(div series, layout a definir)
-
-
-
-
-stranger things - b99 - the office - one day at time - atypical -
-fazer banners por tipo de serie no topo com banners individuais em baixo- descobrir com opor tudo isso dentro de um carousel usar #ids para ao clicar no banner da serie abrir a pagina do tipo da serie na sessão da serie
-
-
-
--erros
-slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -31,20 +15,24 @@ slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
     <link rel="shortcut icon" href="../imagens/abençoados.ico" type="image/x-icon">
     <!-- GoogleFonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/e06ad0a210.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Css -->
-    <link rel="stylesheet" href="../style2.css">
+    <link rel="stylesheet" href="../styleAbas.css">
     <title>The Blessed</title>
 </head>
+
 <body>
     <!-- navbar  -->
     <section id="header">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="blessed/blessed.html"> <img class="logo" src="../imagens/logoBlessed.png"></a>
+                <a class="navbar-brand" href="blessed/blessed.html"> <img class="logo"
+                        src="../imagens/logoBlessed.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -77,19 +65,46 @@ slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
             </nav>
         </div>
     </section>
-<!-- Filmes -->
-<div class="filmes-bg container-fluid">
-<h1 class="titulo">Titulo</h1>
-
-</div>
-    <!-- Footer -->
-  <div class="footer-section">
-    <div class="logo-e-copyright">
-      <p class="copymsg">© 2022 Abençoados, Inc.</p>
+    <!-- Filmes -->
+    <div class="filmes-bg container-fluid">
+        <h1 class="titulo">Oscar os abençoados</h1>
+        <div class="filmes">
+            <section id="matrix">
+                <h2 class="titulo-filme">Matrix</h2>
+                <img class="poster img-fluid" src="imagens/MATRIX-GRANDE.jpg" alt="Capa do filme matrix">
+                <div>
+                <a href="https://www.youtube.com/watch?v=UvqDq2RLZdY" target="_blank" rel="external"><img class="icone"
+                        src="../imagens/youtube.png" alt="logo netflix"></a> <a
+                    href="https://www.hbomax.com/br/pt/feature/urn:hbo:feature:GXdu2VgPdq5uAuwEAADak" target="_blank"
+                    rel="external"><img src="../imagens/hbo.png" alt="logo hbo"></a></div>
+                
+                <p class="sinopse">O filme <strong>Matrix</strong> foi criado em 1999, é um filme de ação e ficção que descreve um futuro
+                distópico
+                no qual a realidade, como percebida pela maioria dos humanos, é, na verdade, uma realidade simulada
+                chamada
+                "Matrix", criada por máquinas sencientes para subjugar a população humana, enquanto o calor e a
+                atividade elétrica
+                de seus corpos são usados ​​como fonte de energia. O filme contém algumas referências filosóficas como a
+                <strong>Alegoria da Caverna de Platão</strong>, <strong>Simulacros e Simulação</strong> e <strong>Alice
+                    no País
+                    das Maravilhas</strong>. Mesmo sendo um filme antigo, contem varios efeitos especiais que a na época
+                revolucionaram o cinema. (Betuel)</p>
+                <p>Confira o trailer legendado</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2KnZac176Hs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+        </div>
     </div>
-  </div>
-  </footer>
-  </body>
+    <!-- Footer -->
+    <div class="footer-section">
+        <div class="logo-e-copyright">
+            <p class="copymsg">© 2022 Abençoados, Inc.</p>
+        </div>
+    </div>
+    </footer>
+</body>
 
 
-  </html>
+</html>
