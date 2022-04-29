@@ -68,6 +68,10 @@ div.series{
   color:black;
 }
 
+.criticos-icones{
+  justify-content: center;
+}
+
 
 /* Footer */
 footer {
@@ -113,13 +117,19 @@ p.copymsg {
 
 /* carousel */
 
-h4 {
+.legenda {
   font-family: 'Lobster';
   font-weight: bold;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
 }
 
 .seta-carousel {
   color: black;
+}
+
+.carousel-inner:hover .legenda{
+  color:rgb(141, 90, 241);
 }
 
 /* pagina equipe */
@@ -178,9 +188,11 @@ h4 {
 @media (max-width:900px){
   .titulo-carousel  {
   font-size:1.5rem;
+  margin:0;
   text-align: center;
   position: static;
-  text-shadow:none; } 
+  text-shadow:none;
+   } 
   
   h2{
     font-size:0.9rem;
