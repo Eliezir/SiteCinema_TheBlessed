@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+body {
+  text-align: center;
+  font-size: 20px;
+  color: #F1F0EB;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+iframe{
+  border:none;
+}
+
+.trailers{
+  display:inline;
+}
+
+.coluna-filmes{
+  position: relative; 
+  padding:0;
+}
+
+#filmes{
+  background: #1c1d1f;
+  padding-top: 30px;
+}
+
+.checked{
+  color:orange;
+}
+
+.titulo_filme{
+  text-align:left;
+}
+
+.rating_links{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content:space-between ;
+}
+
+.rating{
+  margin-left:10px;
+}
+
+.texto_filme_detalhes{
+  font-size:15px;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+}
+
+.info-filme{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.detalhes_filme span::after{
+  content: '|';
+  display: inline-block;
+  margin: 0 15px;
+  color: #41494e; 
+}
+
+@media (max-width:600px){
+iframe{
+  border:none;
+  height:240px;
+}
+.filmes-sidebar{
+  display:none;
+}
+
+}

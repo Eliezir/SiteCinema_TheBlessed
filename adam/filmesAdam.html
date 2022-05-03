@@ -1,19 +1,3 @@
-Esticar a resolução do carousel e a da navbar junto, manter a da div oscar para contraste ✅
-adicionar um menu ao footer
-futuros topicos - romance adolescente/
-adicionar series(div series, layout a definir)
-
-
-
-
-stranger things - b99 - the office - one day at time - atypical -
-fazer banners por tipo de serie no topo com banners individuais em baixo- descobrir com opor tudo isso dentro de um carousel usar #ids para ao clicar no banner da serie abrir a pagina do tipo da serie na sessão da serie
-
-
-
--erros
-slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -31,20 +15,25 @@ slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
     <link rel="shortcut icon" href="../imagens/abençoados.ico" type="image/x-icon">
     <!-- GoogleFonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/e06ad0a210.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Css -->
-    <link rel="stylesheet" href="../style2.css">
+    <link rel="stylesheet" href="../css/styleAbas.css">
+    <link rel="stylesheet" href="../css/default.css">
     <title>The Blessed</title>
 </head>
+
 <body>
     <!-- navbar  -->
     <section id="header">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="blessed/blessed.html"> <img class="logo" src="../imagens/logoBlessed.png"></a>
+                <a class="navbar-brand" href="blessed/blessed.html"> <img class="logo"
+                        src="../imagens/logoBlessed.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -77,19 +66,45 @@ slide effect do carousel não funciona.✅(prefers-reduced-motion media query)
             </nav>
         </div>
     </section>
-<!-- Filmes -->
-<div class="filmes-bg container-fluid">
-<h1 class="titulo">Titulo</h1>
-
-</div>
-    <!-- Footer -->
-  <div class="footer-section">
-    <div class="logo-e-copyright">
-      <p class="copymsg">© 2022 Abençoados, Inc.</p>
+    <!-- Filmes -->
+    <section id="filmes">
+    <div style="padding-bottom: 206px;" class="container-fluid">
+    <div class="row">
+    <div class="col-lg-9 coluna-filmes">
+    <iframe class="trailers" width="100%" height="450px" src="https://www.youtube.com/embed/BAIwj9pSKrw" title="Trailer Click legendado" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="info-filme"> 
+    <div class="detalhes_filme">   
+        <h2 class="titulo_filme">Click</h2>
+    <span class="texto_filme_detalhes">2006</span><span class="texto_filme_detalhes">1h 47m</span><img src="../icones/classificacao-livre.png" alt="classificacao livre   ">
     </div>
-  </div>
-  </footer>
-  </body>
+        
+        <div class="rating_links">
+        <div class="rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span></div>
+        <div><a href="https://tv.apple.com/br/movie/click-legendado/umc.cmc.4tvormzf1rv1gvqv1j043h9i3?action=play"
+        target="_blank"rel="external"><img src="../icones/apple-tv.jpg" alt="apple-tv   "></a>
+        <a href="https://www.primevideo.com/detail/0HX3CC57M63NWXIHBE5NH2SJ5F/ref=atv_dp_share_cu_r"
+        target="_blank"rel="external"><img src="../icones/amazon.png" alt="amazon"></a>
+        </div></div>
+    </div>
+    </div>
+    <div class="col-lg-3 filmes-sidebar">
+    <img class="img-fluid" src ="imagensAdam/ClickPoster350.png" alt="Poster do filme Click"></div></div></div>
 
 
-  </html>
+</section>
+    <!-- Footer -->
+    <div class="footer-section">
+        <div class="logo-e-copyright">
+            <p class="copymsg">© 2022 Abençoados, Inc.</p>
+        </div>
+    </div>
+    </footer>
+</body>
+
+
+</html>
