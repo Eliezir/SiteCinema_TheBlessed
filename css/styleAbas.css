@@ -11,68 +11,117 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-iframe{
-  border:none;
+iframe {
+  border: none;
 }
 
-.trailers{
-  display:inline;
+.trailers {
+  display: inline;
 }
 
-.coluna-filmes{
-  position: relative; 
-  padding:0;
+.coluna-filmes {
+  position: relative;
+  padding: 0;
 }
 
-#filmes{
+#filmes {
   background: #1c1d1f;
   padding-top: 30px;
 }
 
-.checked{
-  color:orange;
+.checked {
+  color: orange;
 }
 
-.titulo_filme{
-  text-align:left;
+.titulo_filme {
+  text-align: left;
 }
 
-.rating_links{
-  display:flex;
+.rating_links {
+  display: flex;
   flex-direction: column;
-  align-items:flex-end;
-  justify-content:space-between ;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-.rating{
-  margin-left:10px;
+.rating {
+  margin-left: 10px;
 }
 
-.texto_filme_detalhes{
-  font-size:15px;
+.texto_filme_detalhes {
+  font-size: 15px;
   font-family: "Montserrat", "Open Sans", sans-serif;
 }
 
-.info-filme{
-  display:flex;
+.info-filme {
+  display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.detalhes_filme span::after{
+.nav-pills {
+  display: flex;
+  justify-content: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+ul.nav{
+  border-bottom-color: #283643;
+}
+.nav-item a {
+  position: relative;
+  padding: 0px 6px 18px 6px;
+  font-size:18px;
+  font-family: "Montserrat", "Open Sans", sans-serif;
+  color: #949CB0;
+  margin:0;
+}
+
+.nav-item a:hover{
+  color: #41494e;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color:transparent;
+  color: rgb(141, 90, 241);}
+
+.detalhes_filme span::after {
   content: '|';
   display: inline-block;
   margin: 0 15px;
-  color: #41494e; 
+  color: #41494e;
 }
 
-@media (max-width:600px){
-iframe{
-  border:none;
-  height:240px;
+.nav-item + li.nav-item::before {
+  content: '/';
+  margin: 0px 25px 0 30px;
+  color: #949494;
 }
-.filmes-sidebar{
-  display:none;
+
+li.nav-item{
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  display: -webkit-box;
+  display: flex;
+  flex-shrink: 0;
+  padding:0;
+  margin:0;
 }
+
+@media (max-width:600px) {
+  iframe {
+    border: none;
+    height: 240px;
+  }
+
+  .filmes-sidebar {
+    display: none;
+  }
 
 }
