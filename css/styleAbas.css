@@ -176,16 +176,19 @@ border-radius: 5%;
   padding:0;
 }
 
+.filmes-sidebar{
+  padding:0;
+  padding-left:24px;
+}
+
 @media (max-width:600px) {
   iframe {
     border: none;
     height: 240px;
   }
 
-  .filmes-sidebar {
+  .filmes-sidebar{
     display: none;
-    padding:0;
-    padding-left:24px;
   }
 
 }
