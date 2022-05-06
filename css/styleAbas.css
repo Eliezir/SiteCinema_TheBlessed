@@ -155,9 +155,13 @@ background: #333336;
 border-radius: 5%;
 }
 
+.nav-link{
+  color:#949CB0;
+}
+
 .nav-info .nav-link.active, .nav-tabs .show>.nav-link {
   color: #fff;
-  color: #6320EE;
+  color: #1ed760;
   background-color: transparent;}
 
 .nav-info .nav-link{
@@ -168,11 +172,18 @@ border-radius: 5%;
   margin-bottom:20px;
   border:none;
 }
-.nav-info .nav-link:hover{
-  color:rgb(141, 90, 241);
+
+li.list-group-item{
+  text-align: center;
+  margin:0;
+}
+.icone-ator{
+  border-radius:50%;
+  width: 50px;
+  margin-right:10px;
 }
 
-#spotify{
+#spotify,#elenco{
   padding:0;
 }
 
@@ -180,6 +191,12 @@ border-radius: 5%;
   padding:0;
   padding-left:24px;
 }
+
+.list-group-item{
+  background-color: transparent;
+  text-align: left;
+  color:white;
+  }
 
 @media (max-width:600px) {
   iframe {
