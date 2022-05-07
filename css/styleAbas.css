@@ -18,10 +18,12 @@ text-align: left;
 
 
 /* sections */
-#filmes {
+#filme1,#filme2 {
   background: #1c1d1f;
-  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-top:30px;
 }
+
 
 /* containers */
 .coluna-filmes {
@@ -32,6 +34,7 @@ text-align: left;
 iframe {
   border: none;
 }
+
 
 .trailers {
   display: inline;
@@ -62,6 +65,12 @@ iframe {
   min-width: 0;
 }
 
+.detalhes_filme{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 /* estrelas */
 
 .checked {
@@ -75,7 +84,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .detalhes_filme span::after {
   content: '|';
@@ -173,17 +182,13 @@ border-radius: 5%;
   border:none;
 }
 
-li.list-group-item{
-  text-align: center;
-  margin:0;
-}
+
 .icone-ator{
   border-radius:50%;
-  width: 50px;
   margin-right:10px;
 }
 
-#spotify,#elenco{
+.spotify,.elenco{
   padding:0;
 }
 
