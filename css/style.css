@@ -61,6 +61,10 @@ div.series{
 
 /* carousel */
 
+.off:hover .off-img{
+ filter: grayscale(100%);  
+}
+
 .legenda {
   font-family: 'Lobster';
   font-weight: bold;
