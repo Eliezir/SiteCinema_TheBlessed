@@ -7,6 +7,7 @@
 
 .navbar-brand {
     width: 80px;
+    padding-left:12px;
 }
 
 .nav-item {
@@ -49,7 +50,7 @@ p.copymsg {
 }
 
 #header {
-    background-color: #6320EE;
+    background-color: #52057B;
 }
 
 .container-fluid {
@@ -57,9 +58,12 @@ p.copymsg {
 }
 
 
+
+
 @media (max-width:900px) {
     .container-fluid {
         padding: 0 7%;
     }
 }
+
 

@@ -9,43 +9,56 @@ body {
   color: #F1F0EB;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 
 
 
 /* Oscars */
-#oscars {
+#oscars,#series{
   background: #1c1d1f;
   padding-top: 3rem;
 }
 
 #oscars h2 {
   text-align: left;
+  line-height: 1.25;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
-#oscars h3 {
-  text-align: right;
-}
-#oscars p {
-font-size: 1rem;
+#accordionOscars{
+  background: transparent;
 }
 
 /* series */
 
-div.series{
-  color:black;
-}
-
-.criticos-icones{
+.container-poster{
+  margin:0px 0 50px;
+  display:flex;
   justify-content: center;
+  align-items: flex-end
 }
 
+#series .legenda-serie{
+  z-index: 1;
+  font-size:1.2rem;
+  margin:0;
+  position:absolute;
+  font-family: "Montserrat";
+}
 
+.container-poster:hover .legenda-serie{
+  color:#6320EE;  
+
+}
 
 
 
 /* containers */
+
+
 
 
 /* sections */
@@ -61,11 +74,9 @@ div.series{
 
 /* carousel */
 
-.off:hover .off-img{
- filter: grayscale(100%);  
-}
 
-.legenda {
+
+.legenda,.legenda-serie {
   font-family: 'Lobster';
   font-weight: bold;
   color:white;
@@ -87,11 +98,30 @@ div.series{
   text-align: left;
   position: absolute;
   z-index: 1;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(141, 90, 241), 0 0 5px #6320EE;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   top:70px;
-  left:150px;
+  left:15%;
+  visibility: hidden;
 }
-/* pagina equipe */
+
+
+/* Pagina Filmes */
+.filmes-bg{
+  background-color: #6320EE;
+}
+
+.filmes{
+  margin-top:10%;
+}
+
+.titulo{  
+  font-size: 3.5rem;
+  line-height: 1.25;
+  font-weight: 900;
+  text-align: left;
+}
+
+  /* pagina equipe */
 
 #intro-blessed {
   background-color: white;
@@ -120,27 +150,8 @@ div.series{
 }
 
 .icone:hover {
-  color: #6320EE;
+  color: #6320EE;}
 
-}
-
-/* Pagina Filmes */
-.filmes-bg{
-  background-color: #6320EE;
-}
-
-.filmes{
-  margin-top:10%;
-}
-
-.titulo{  
-  font-size: 3.5rem;
-  line-height: 1.25;
-  font-weight: 900;
-  text-align: left;
-}
-
-  
 
 /* media para mobile */
 
@@ -150,14 +161,25 @@ div.series{
   margin:0;
   text-align: center;
   position: static;
-  text-shadow:none;
-   } 
+  text-shadow:none; } 
   
   h2{
-    font-size:0.9rem;
+    font-size:1rem;
   }
+
+.series{
+  margin-top:1rem;
+}
 
   .carousel-indicators{
     display: none;
+  }
+
+  .container-poster{
+    margin: 0 0 20px;
+  }
+
+  #oscars,#series{
+    padding:1rem;
   }
 }
