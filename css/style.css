@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 
 body {
   text-align: center;
@@ -18,42 +18,153 @@ body {
 /* Oscars */
 #oscars,#series{
   background: #1c1d1f;
-  padding-top: 3rem;
+  padding: 2rem 0;
 }
 
-#oscars h2 {
+#oscars h2,#series h2 {
   text-align: left;
   line-height: 1.25;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-#accordionOscars{
-  background: transparent;
+
+/* accordion */
+#accordionCriticos{
+  text-decoration: none;
 }
 
-/* series */
-
-.container-poster{
-  margin:0px 0 50px;
-  display:flex;
-  justify-content: center;
-  align-items: flex-end
+#accordionCriticos .accordion-item{
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    background: transparent;
 }
 
-#series .legenda-serie{
-  z-index: 1;
-  font-size:1.2rem;
+#accordionCriticos .accordion-button{
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    position: relative;
+}
+
+#accordionCriticos .accordion-button{
+    display:relative;
+    padding: 20px 30px;
+    margin: 0;
+    background: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+#accordionCriticos .accordion-body{
+    padding: 20px 30px;
+    background: rgba(0,0,0,0.1);
+    font-size: 15px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: none;
+    border-radius: 5px;
+}
+
+
+
+#accordionCriticos .accordion-button:focus,.accordion-button:not(.collapsed){
+  box-shadow: 0 0 0 0.25rem #6320EE;
+}
+
+
+.criticos-texto{
+  font-size:0.85rem;
+  text-align:left;
+  color: rgba(255,255,255,0.5); 
   margin:0;
+}
+
+.accordion-button::after {
+  width: auto;
+  height: auto;
+  content: "+";
+  font-size: 35px;
+  background-image: none;
+  font-weight: 100;
+  color: #6320EE;
+  transform: translateY(-4px);
+}
+.accordion-button:not(.collapsed)::after {
+  width: auto;
+  height: auto;
+  background-image: none;
+  content: "-";
+  font-size: 36px;
+  transform: translate(-5px, -4px);
+  transform: rotate(0deg);
+}
+/* series */
+#series{
+  background: #1c1d1f;
+}
+/* owl carousel series */
+
+#series .card{
+  background: transparent;
+  align-items: flex-start;
+}
+
+#series a{
+  text-transform: uppercase;
+  margin-top:5px;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#series a:hover {
+  color:#834eee;
+}
+
+#series .owl-dots{
   position:absolute;
-  font-family: "Montserrat";
+  top:-3rem;
+  right:0;
+}
+#series .owl-nav{
+  position:absolute;
+  top:-4.2rem;
+  left:8.5rem;
 }
 
-.container-poster:hover .legenda-serie{
-  color:#6320EE;  
 
+#series button:hover span{
+  background:#834eee;
 }
 
+#series .owl-dot.active span{
+  background:#6320EE;
+}
+
+.fa-circle-arrow-left:before, .fa-circle-arrow-right:before{
+  color:#8f8f8f;
+  font-size:30px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover .fa-circle-arrow-left:before, .owl-theme .owl-nav [class*=owl-]:hover .fa-circle-arrow-right:before {
+  color:#6320EE;}
+
+
+.owl-theme .owl-nav [class*=owl-]:hover  {
+  background: transparent;}
 
 
 /* containers */
@@ -98,10 +209,9 @@ body {
   text-align: left;
   position: absolute;
   z-index: 1;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #6320EE, 0 0 5px #7442d8;;
   top:70px;
   left:15%;
-  visibility: hidden;
 }
 
 
@@ -182,4 +292,16 @@ body {
   #oscars,#series{
     padding:1rem;
   }
+
+  #oscars .sidebar-oscar{
+    display:none;
+  }
+  #series .card{
+    align-items: center;}
+  #series .owl-dots{
+    position:unset;  
+    }
+  #series .owl-nav{
+    display:none;
+    } 
 }

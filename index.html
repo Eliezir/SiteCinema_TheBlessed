@@ -10,8 +10,11 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-
   </script>
+  <!-- Owl carousel Min.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Owl carousel Theme Min.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- favicon -->
   <link rel="shortcut icon" href="imagens/abençoados.ico" type="image/x-icon">
   <!-- GoogleFonts -->
@@ -101,10 +104,11 @@
       </div>
       <div class="carousel-item">
         <a href="cliche/filmesCliche.html" target="_self" rel="next">
-        <img src="imagens/CapaRomance.png" class="d-block w-100" alt="Capa filmes em lançamento">
-        <div class="carousel-caption d-none d-md-block">
-          <h4 class="legenda">Romances clichês</h4>
-        </div></a>
+          <img src="imagens/CapaRomance.png" class="d-block w-100" alt="Capa filmes em lançamento">
+          <div class="carousel-caption d-none d-md-block">
+            <h4 class="legenda">Romances clichês</h4>
+          </div>
+        </a>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselConteudo" data-bs-slide="prev">
@@ -123,116 +127,150 @@
         <div class="col-lg-8 col-lg-offset">
           <h2>Oscar os Abençoados da 7ª arte.</h2>
           <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-            <img src="imagens/CapaOscars1080.png" class="img-fluid" alt="Capa de filmes oscars"></a></div>
-            <div class="col-lg-4">
-              <h2>Criticos</h2>
-              <div class="accordion" id="accordionCriticos">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingBetuel">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Betuel
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingBetuel" data-bs-parent="#accordionCriticos">
-                    <div class="accordion-body">
-                    O verdadeiro Oscars, 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingCarlos">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Carlos
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingCarlos" data-bs-parent="#accordionCriticos">
-                    <div class="accordion-body">
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingEliezir">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Eliezir
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingEliezir" data-bs-parent="#accordionCriticos">
-                    <div class="accordion-body">
-                      
-                    </div>
-                  </div>
-                </div> 
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingGeovanny">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Geovanny
-                  </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingGeovanny" data-bs-parent="#accordionCriticos">
-                  <div class="accordion-body">
-                  O verdadeiro Oscars, 
-                  </div>
+            <img src="imagens/CapaOscars1080.png" class="img-fluid" alt="Capa de filmes oscars"></a>
+        </div>
+        <div class="sidebar-oscar col-lg-4">
+          <h2>Criticos</h2>
+          <div class="accordion" id="accordionCriticos">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingBetuel">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Betuel Ferguson
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingBetuel"
+                data-bs-parent="#accordionCriticos">
+                <div class="accordion-body">
+                  <p class="criticos-texto"> Renomado critico francês, Betuel Ferguson é famoso por ter escrito durante
+                    anos para a <i>Cahiers du Cinéma</i> uma das maiores revistas de cinema do mundo e por ter competido
+                    na CNCTX, a competição nacional de contexto.</p>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headinggJulio">
-                  <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Júlio
-                  </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse collapse" aria-labelledby="headinJgulio" data-bs-parent="#accordionCriticos">
-                  <div class="accordion-body">
-                  O verdadeiro Oscars, 
-                  </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingCarlos">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Carlos Robertson IV
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingCarlos"
+                data-bs-parent="#accordionCriticos">
+                <div class="accordion-body">
+                  <p class="criticos-texto">Mundialmente conhecido, Carlos Robertson IV nasceu na irlanda, é um dos
+                    responsáveis pela criação do <i>Dublin International Film Festival</i>, o DIFF</p>
                 </div>
-              </div> 
-            </div></div>
-        </div></div>
-        </section>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEliezir">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Eliezir Rosenbaum
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingEliezir"
+                data-bs-parent="#accordionCriticos">
+                <div class="accordion-body">
+                  <p class="criticos-texto">Canadense, Eliezir Rosenbaum é vice-presidente da Academia Canadense de
+                    Cinema e Televisão, responsável pelo Canadian Screen Awards</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingGeovanny">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Geovanny Dargis
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingGeovanny"
+                data-bs-parent="#accordionCriticos">
+                <div class="accordion-body">
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headinggJulio">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Júlio César Haskell
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse collapse" aria-labelledby="headinJgulio"
+                data-bs-parent="#accordionCriticos">
+                <div class="accordion-body">
+                  O verdadeiro Oscars,
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="series">
     <div class="container-fluid">
-          <div class="row series">
-            <h2>Séries</h2>
-            <div class="container-poster col-lg-4 col-md-6 col-6">
-              <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-                <img src="imagens/b99Poster300.jpg"  class="img-fluid poster-series"  alt="Poster Brooklyn 99"></a>
-                <h4 class="legenda-serie">Brooklyn99</h4>
-            </div>
-            <div class="container-poster col-lg-4  col-md-6 col-6">
-              <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-                <img src="imagens/odtPoster300.jpg"  class="img-fluid poster-series"  alt="Poster Ona Day At Time"></a>
-                <h4 class="legenda-serie">One Day At Time</h4>
-            </div>
-            <div class="container-poster col-lg-4 col-md-6 col-6 ">
-              <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-                <img src="imagens/officePoster300.jpg"  class="img-fluid poster-series"  alt="Poster The office"></a>
-                <h4 class="legenda-serie">The Office</h4>
-            </div>
 
-            <div class="container-poster col-lg-4  col-md-6 col-6">
-              <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-                <img src="imagens/WhoPoster300.jpg"  class="img-fluid poster-series"  alt="Poster Dr. Who"></a>
-                <h4 class="legenda-serie">Dr Who</h4>
-            </div>
-            <div class="container-poster col-lg-4  col-md-6 col-6">
-              <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-                <img src="imagens/strPoster300.jpg" class="img-fluid poster-series" alt="poster Stranger Things"></a>
-                <h4 class="legenda-serie">Stranger Things</h4>
-            </div>
-            <div class="container-poster col-lg-4  col-md-6 col-6">
-              <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-              <img src="imagens/motherPoster300.jpg" class="img-fluid poster-series" alt="Poster how i meet your mother"></a>
-              <h4 class="legenda-serie">How I Met Your Mother</h4>
-          </div>
-          </div></div>
+    </div>
   </section>
 
   <!-- div series -->
-  <div class="series cointainer-fluid">
-
+  <section id="series">
+    <div class="container-fluid">
+      <h2>Séries</h2>
+      <div class="row">
+        <div class="col-12 m-auto">
+      <div class="owl-carousel owl-theme">
+        <div class="item mb-4">
+          <div class="card border-0">
+            <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+            <img src="imagens/b99Poster300.jpg" alt="poster brooklyn nine-nine" class="card-img-top img-fluid">
+          <div class="card-title"> <h6>Brooklyn NINE-NINE</h6></div></a>
+          </div>
+    </div>
+    <div class="item mb-4">
+      <div class="card border-0">
+        <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+        <img src="imagens/odtPoster300.jpg" alt="poster one day at time" class="card-img-top img-fluid">
+      <div class="card-title"> <h6>One Day At Time</h6></div></a>
+      </div>
+</div>
+<div class="item mb-4">
+  <div class="card border-0">
+    <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+    <img src="imagens/officePoster300.jpg" alt="poster the office" class="card-img-top img-fluid">
+  <div class="card-title"> <h6>The office</h6></div></a>
   </div>
-
+</div>
+<div class="item mb-4">
+  <div class="card border-0">
+    <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+    <img src="imagens/WhoPoster300.jpg" alt="poster Dr Who" class="card-img-top img-fluid">
+   <div class="card-title"> <h6>Dr Who</h6></div></a>
+  </div>
+</div>
+<div class="item mb-4">
+<div class="card border-0">
+<a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+<img src="imagens/strPoster300.jpg" alt="poster stranger things" class="card-img-top img-fluid">
+<div class="card-title"> <h6>stranger things</h6></div></a>
+</div>
+</div>
+<div class="item mb-4">
+<div class="card border-0">
+<a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+<img src="imagens/motherPoster300.jpg" alt="poster how i met your mother" class="card-img-top img-fluid">
+<div class="card-title"> <h6>how i met your mother</h6></div></a>
+</div>
+</div>
+  
+  </div></div></div>
+      
+    </div>
+  </section>
   <!-- Footer -->
   <div class="footer-section">
     <div class="logo-e-copyright">
@@ -245,15 +283,48 @@
     <a href="#" id="back-to-top">
       <font color="#b63b4d">Voltar ao topo </font><i class="ion-ios-arrow-thin-up"></i></a></div></p> -->
 
+  <script>
+    function indisponivel() {
+      alert("Pagina ainda em desenvolvimento.");
+
+    }
+  </script>
+
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<!-- Owl carousel Min .js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Init Owl Carousel -->
 <script>
-function indisponivel(){
-  alert("Pagina ainda em desenvolvimento.");
-
-}
-
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dotsEach:1,
+    
+    navText:["<i class='seta-series fa-solid fa-circle-arrow-left fa-2x'></i>","<i class='seta-series fa-solid fa-circle-arrow-right fa-2x'></i>" ], 
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
 </script>
+
 
 
 </body>
 
 </html>
+
+
+  

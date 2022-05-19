@@ -13,7 +13,7 @@ body {
 .texto_sinopse{
 font-size:16px;
 color:#b4BBC0;
-text-align: left;
+text-align: justify;
 }
 
 
@@ -170,7 +170,7 @@ border-radius: 5%;
 
 .nav-info .nav-link.active, .nav-tabs .show>.nav-link {
   color: #fff;
-  color: #1ed760;
+  color:#7442d8;
   background-color: transparent;}
 
 .nav-info .nav-link{
@@ -212,5 +212,15 @@ border-radius: 5%;
   .filmes-sidebar{
     display: none;
   }
+
+  .titulo_filme{
+    font-size:1rem;
+  }
+  .texto_sinopse{
+    font-size:0.8rem;
+  }
+.rating{
+  width:max-content;
+}
 
 }
