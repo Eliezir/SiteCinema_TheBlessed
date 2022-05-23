@@ -3,6 +3,7 @@
 
 .navbar {
     padding: 0 0 1rem;
+   
 }
 
 .navbar-brand {
@@ -21,6 +22,16 @@
     padding: 0;
 
 }
+.navbar-dark .navbar-nav .nav-link{
+    color: #d3d2d2; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#ffff; 
+    font-size:20px;
+}
+
+
 
 /* Footer */
 footer {
@@ -50,7 +61,8 @@ p.copymsg {
 }
 
 #header {
-    background-color: #6520ee;
+    background-color: #6320EE;
+  
 }
 
 .container-fluid {
