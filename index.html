@@ -12,9 +12,14 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
   <!-- Owl carousel Min.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Owl carousel Theme Min.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- favicon -->
   <link rel="shortcut icon" href="imagens/abençoados.ico" type="image/x-icon">
   <!-- GoogleFonts -->
@@ -31,19 +36,20 @@
 <body>
   <!-- navbar  -->
   <section id="header">
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
+      <div class="container-fluid">
         <a class="navbar-brand" href="blessed/blessed.html"> <img class="logo" src="imagens/logoBlessed.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarHeader">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-start">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="lançamentos/filmes.html">Lançamentos</a></li>
             <li class="nav-item"><a class="nav-link" href="">Series</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Quizz</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Quizz</a></li></ul>
+            <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Entre em contato</a>
@@ -57,15 +63,9 @@
                 <li><a class="dropdown-item" href="mailto:gmvs1@aluno.ifal.edu.br" target="_blank"
                     rel="external">Geovanny</a></li>
                 <li><a class="dropdown-item" href="mailto:jcbf1@aluno.ifal.edu.br" target="_blank"
-                    rel="external">Júlio</a></li></
-              </ul>
-            </li>
-          </ul>
+                    rel="external">Júlio</a></li>
+                </ </ul> </li> </ul> </div> </nav> <!-- <h1 class="titulo-carousel">Cinema abençoado</h1> -->
         </div>
-      </nav>
-<!-- 
-      <h1 class="titulo-carousel">Cinema abençoado</h1> -->
-    </div>
   </section>
 
   <!-- carousel conteudo -->
@@ -96,7 +96,7 @@
       </div>
       <div class="carousel-item">
         <a href="Javascript:indisponivel()" target="_self" rel="next">
-          <img src="imagens/CapaLancamento.jpg" class="d-block w-100" alt="Capa filmes em lançamento">
+          <img src="imagens/CapaLancamento.png" class="d-block w-100" alt="Capa filmes em lançamento">
           <div class="carousel-caption d-none d-md-block">
             <h4 class="legenda">Lançamentos</h4>
           </div>
@@ -188,7 +188,7 @@
               <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingGeovanny"
                 data-bs-parent="#accordionCriticos">
                 <div class="accordion-body">
-
+                  <p class="criticos-texto"></p>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@
               <div id="collapseFive" class="accordion-collapse collapse collapse" aria-labelledby="headinJgulio"
                 data-bs-parent="#accordionCriticos">
                 <div class="accordion-body">
-                  Natural de Maceió, Alagoas, Júlio César é conhecido pela sua renomada empresa no ramo oculista, as oticas bonfime
+                  <p class="criticos-texto">Natural de Maceió, Júlio César é amigo do dono do site.</p>
                 </div>
               </div>
             </div>
@@ -211,116 +211,109 @@
       </div>
     </div>
   </section>
- 
+
   <!-- div series -->
-  <div style="background-image: url(imagens/series-bg2.jpg);">
-  <section id="series">
-    <div class="container-fluid">
-      <h2>Séries</h2>
-      <div class="row">
-        <div class="col-12 m-auto">
-      <div class="owl-carousel owl-theme">
-        <div class="item mb-4">
-          <div class="card border-0">
-            <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-            <img src="imagens/b99Poster300.jpg" alt="poster brooklyn nine-nine" class="card-img-top img-fluid">
-          <div class="card-title"> <h6>Brooklyn NINE-NINE</h6></div></a>
+  <div class="bg-series" style="background-image: url(imagens/series-bg2.jpg);">
+    <section id="series">
+      <div class="container-fluid">
+        <h2>Séries</h2>
+        <div class="row">
+          <div class="col-12 m-auto">
+            <div class="owl-carousel owl-theme">
+              <div class="item mb-4">
+                <div class="card border-0">
+                  <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+                    <img src="imagens/b99Poster300.jpg" alt="poster brooklyn nine-nine" class="card-img-top img-fluid">
+                    <div class="card-title">
+                      <h6>Brooklyn NINE-NINE</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item mb-4">
+                <div class="card border-0">
+                  <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+                    <img src="imagens/odtPoster300.jpg" alt="poster one day at time" class="card-img-top img-fluid">
+                    <div class="card-title">
+                      <h6>One Day At Time</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item mb-4">
+                <div class="card border-0">
+                  <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+                    <img src="imagens/officePoster300.jpg" alt="poster the office" class="card-img-top img-fluid">
+                    <div class="card-title">
+                      <h6>The office</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item mb-4">
+                <div class="card border-0">
+                  <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+                    <img src="imagens/WhoPoster300.jpg" alt="poster Dr Who" class="card-img-top img-fluid">
+                    <div class="card-title">
+                      <h6>Dr Who</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item mb-4">
+                <div class="card border-0">
+                  <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+                    <img src="imagens/strPoster300.jpg" alt="poster stranger things" class="card-img-top img-fluid">
+                    <div class="card-title">
+                      <h6>stranger things</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item mb-4">
+                <div class="card border-0">
+                  <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
+                    <img src="imagens/motherPoster300.jpg" alt="poster how i met your mother"
+                      class="card-img-top img-fluid">
+                    <div class="card-title">
+                      <h6>how i met your mother</h6>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
           </div>
-    </div>
-    <div class="item mb-4">
-      <div class="card border-0">
-        <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-        <img src="imagens/odtPoster300.jpg" alt="poster one day at time" class="card-img-top img-fluid">
-      <div class="card-title"> <h6>One Day At Time</h6></div></a>
+        </div>
+
       </div>
-</div>
-<div class="item mb-4">
-  <div class="card border-0">
-    <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-    <img src="imagens/officePoster300.jpg" alt="poster the office" class="card-img-top img-fluid">
-  <div class="card-title"> <h6>The office</h6></div></a>
-  </div>
-</div>
-<div class="item mb-4">
-  <div class="card border-0">
-    <a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-    <img src="imagens/WhoPoster300.jpg" alt="poster Dr Who" class="card-img-top img-fluid">
-   <div class="card-title"> <h6>Dr Who</h6></div></a>
-  </div>
-</div>
-<div class="item mb-4">
-<div class="card border-0">
-<a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-<img src="imagens/strPoster300.jpg" alt="poster stranger things" class="card-img-top img-fluid">
-<div class="card-title"> <h6>stranger things</h6></div></a>
-</div>
-</div>
-<div class="item mb-4">
-<div class="card border-0">
-<a class="" href="Javascript:indisponivel()" target="_self" rel="next">
-<img src="imagens/motherPoster300.jpg" alt="poster how i met your mother" class="card-img-top img-fluid">
-<div class="card-title"> <h6>how i met your mother</h6></div></a>
-</div>
-</div>
-  
-  </div></div></div>
-      
+    </section>
+    <!-- Footer -->
+    <div class="footer-section">
+      <div class="logo-e-copyright">
+        <p class="copymsg">© 2022 Abençoados, Inc.</p>
+      </div>
     </div>
-  </section>
-  <!-- Footer -->
-  <div class="footer-section">
-    <div class="logo-e-copyright">
-      <p class="copymsg">© 2022 Abençoados, Inc.</p>
-    </div>
+    </footer>
   </div>
-  </footer></div>
   <!-- <div class="back-to-top">
     <p>
     <a href="#" id="back-to-top">
       <font color="#b63b4d">Voltar ao topo </font><i class="ion-ios-arrow-thin-up"></i></a></div></p> -->
 
-  <script>
-    function indisponivel() {
-      alert("Pagina ainda em desenvolvimento.");
 
-    }
-  </script>
-
-<!-- jquery cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-<!-- Owl carousel Min .js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Owl carousel Min .js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- Init Owl Carousel -->
-<script>
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    dotsEach:1,
-    
-    navText:["<i class='seta-series fa-solid fa-circle-arrow-left fa-2x'></i>","<i class='seta-series fa-solid fa-circle-arrow-right fa-2x'></i>" ], 
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:4
-        }
-    }
-})
-</script>
-
+  <script src="index.js"></script>
 
 
 </body>
 
 </html>
-
-
-  
