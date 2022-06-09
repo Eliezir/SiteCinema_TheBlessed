@@ -58,7 +58,7 @@ p.copymsg {
 }
 
 #header {
-    background-color:#7442d8    ; 
+    background-color:#141414    ; 
 }
 
 .container-fluid {
@@ -72,6 +72,9 @@ p.copymsg {
     .container-fluid {
         padding: 0 7%;
     }
+    .navbar{
+        padding-bottom: 0.5rem;
+}
 }
 
 
