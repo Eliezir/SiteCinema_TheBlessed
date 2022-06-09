@@ -346,4 +346,8 @@ div.footer-section{
   #series .owl-nav{
     display:none;
     } 
+  .carousel-item img{
+    width: 125% !important;
+    margin-left:-12.5%;
+  }
 }
