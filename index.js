@@ -38,3 +38,30 @@ $(window).scroll(function() {
 
     }
 });
+
+
+/* function carousel(){
+    $(".icones").toggleClass("row");
+    $(".icones").toggleClass("owl-carousel");
+    $(".icones").toggleClass("owl-theme");
+    $(".div-icones").toggleClass("col-lg-4");
+    $(".div-icones").toggleClass("item");
+    $('.owl-carousel').owlCarousel();
+}
+ var tela = screen.width;
+$(window).on("resize",function(){
+    tela = screen.width;
+    redimensionar();
+}) 
+
+function redimensionar(){
+if(tela < 900 &&  $(".icones").hasClass("row")){
+    console.log("oi")
+    carousel();
+    $('.owl-carousel').owlCarousel();
+}
+
+if(tela > 900 &&  $(".icones").hasClass("owl-carousel")){
+    console.log("tchau")
+    carousel();
+}} */

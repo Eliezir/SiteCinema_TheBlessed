@@ -24,6 +24,12 @@ text-align: justify;
   padding-top:30px;
 }
 
+.titulo-section{
+  font-family: lobster;
+  margin-bottom:30px;
+  font-size: 3.5rem
+}
+
 
 /* containers */
 .coluna-filmes {
@@ -216,6 +222,10 @@ border-radius: 5%;
   .titulo_filme{
     font-size:1rem;
   }
+  .titulo-section{
+    font-size:1.5rem;
+  }
+
   .texto_sinopse{
     font-size:0.8rem;
   }
